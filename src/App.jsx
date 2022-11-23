@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
 import Saludo from './components/Saludo';
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
 
@@ -29,7 +29,6 @@ function App() {
         
        
 
-        <Saludo name='Martin' age={26} action= {mensaje} /> 
 
         <li>
           <a href='./aperitivos'>
